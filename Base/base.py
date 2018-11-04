@@ -49,3 +49,12 @@ class Base():
         # 滑动
     def base_drag_and_drop(self, el1, el2):
         self.driver.drag_and_drop(el1, el2)
+
+
+
+
+
+    # 封装传入文本
+    def base_xpath_text_click(self,text):
+        loc = By.XPATH,"//*[contains(@text,'"+text+"')]"
+        self.base_find_element(loc).click()

@@ -1,0 +1,4 @@
+
+class PageAddress(Base):
+
+    pass

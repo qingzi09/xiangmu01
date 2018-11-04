@@ -1,7 +1,9 @@
 import sys,os
+
+from Page.Page_in import PageIn
+
 sys.path.append(os.getcwd())
 
-from Page.page_in import PageIn
 class TestAdress():
     # setup
     def setup_class(self):

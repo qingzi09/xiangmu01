@@ -53,3 +53,18 @@ class PageLogin(Base):
     @allure.step("确认退出")
     def page_click_exit_ok(self):
         self.base_click(Page.login_logout_ok)
+
+#     封建登录操作 给地址管理使用
+    def page_login_address(self):
+        # 点击我
+        self.page_click_me()
+        # 点击已有账号去登录
+        self.page_click_me_ok_link()
+        # 输入用户名
+        self.page_input_username("18610453007")
+        #输入密码
+        self.page_input_pwd("123456")
+        # 点击登录
+        self.page_click_login_btn()
+        # 点击设置
+        self.page_click_setting()

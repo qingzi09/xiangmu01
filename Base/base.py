@@ -52,9 +52,12 @@ class Base():
 
 
 
-
-
     # 封装传入文本
     def base_xpath_text_click(self,text):
         loc = By.XPATH,"//*[contains(@text,'"+text+"')]"
         self.base_find_element(loc).click()
+
+
+    # 封一个返回所有列表文本的方法
+    def base_get_list_text(self,loc):
+        return [i.text for i in self.base_find_element(loc)]

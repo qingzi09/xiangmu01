@@ -26,7 +26,27 @@ login_logout=By.ID,"com.yunmall.lc:id/setting_logout"
 # 确认退出
 login_logout_ok=By.ID,"com.yunmall.lc:id/ymdialog_right_button"
 
-
+"""
+    地址管理数据
+"""
+# 地址管理
+address_manage=By.ID,"com.yunmall.lc:id/setting_address_manage"
+# 新增地址
+address_add_new_btn=By.ID,"com.yunmall.lc:id/address_add_new_btn"
+# 收件人
+address_receipt_name=By.ID,"com.yunmall.lc:id/address_receipt_name"
+# 手机号
+address_add_phone=By.ID,"com.yunmall.lc:id/address_add_phone"
+# 所在地区
+address_province=By.ID,"com.yunmall.lc:id/address_province"
+# 详细地址
+address_detail_addr_info=By.ID,"com.yunmall.lc:id/address_detail_addr_info"
+# 邮编
+address_post_code=By.ID,"com.yunmall.lc:id/address_post_code"
+# 设为默认地址
+address_default=By.ID,"com.yunmall.lc:id/address_default"
+# 收件人 电话
+address_name_phone=By.ID,"com.yunmall.lc:id/receipt_name"
 
 
 
